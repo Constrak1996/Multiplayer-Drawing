@@ -30,6 +30,8 @@ namespace Template
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+            graphics.PreferredBackBufferWidth = 1720;
+            graphics.PreferredBackBufferHeight = 880;
         }
 
         /// <summary>
@@ -76,7 +78,7 @@ namespace Template
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            if (Keyboard.GetState().IsKeyDown(Keys.E))
+            if (mouse.LeftButton == ButtonState.Pressed)
             {
                 GameObject blackPixel = new BlackPixel(new Vector2(mouse.Position.X, mouse.Position.Y), new Vector2(mouse.Position.X, mouse.Position.Y), GameWorld.blackPixel);
 

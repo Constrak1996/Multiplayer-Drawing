@@ -26,7 +26,7 @@ namespace Template
 
         public override void Update()
         {
-            pos = new Vector2(mouse.X, mouse.Y);
+            mouse = Mouse.GetState();
 
             
 
@@ -35,7 +35,7 @@ namespace Template
 
         public override void Draw(GameTime gametime, SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(Sprite, pos, null, Color.White, 0f, spriteCenter, 10f, SpriteEffects.None, 1f);
+            spriteBatch.Draw(Sprite, pos, null, Color.White, 0f, Vector2.Zero, 1f, SpriteEffects.None, 1f);
             base.Draw(gametime, spriteBatch);
         }
 
