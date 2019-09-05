@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework.Graphics;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System;
 using System.Collections.Generic;
@@ -10,8 +11,10 @@ namespace Template
 {
     public class GameObject
     {
+        public Vector2 spriteCenter;
+        public Texture2D Sprite;
 
-        public GameObject(int posX, int posY, string sprite)
+        public GameObject(Vector2 pos, Vector2 mousePos, Texture2D sprite)
         {
             
         }
@@ -21,7 +24,7 @@ namespace Template
 
         }
 
-        public virtual void Draw(SpriteBatch spriteBatch)
+        public virtual void Draw(GameTime gameTime, SpriteBatch spriteBatch)
         {
 
         }

@@ -17,6 +17,8 @@ namespace Template
         private static ContentManager _content;
         public static ContentManager ContentManager{ get => _content; }
 
+        public static Texture2D blackPixel;
+
         MouseState mouse;
 
         //The lists used for loading and removing items
@@ -48,6 +50,8 @@ namespace Template
         /// </summary>
         protected override void LoadContent()
         {
+            blackPixel = Content.Load<Texture2D>("BlackPixel");
+
             spriteBatch = new SpriteBatch(GraphicsDevice);
         }
 
@@ -100,7 +104,7 @@ namespace Template
             //Draws sprites in gameObjects list
             foreach (GameObject go in gameObjects)
             {
-                go.Draw(spriteBatch);
+                go.Draw(gameTime, spriteBatch);
             }
 
             spriteBatch.End();
