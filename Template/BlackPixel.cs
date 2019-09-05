@@ -16,6 +16,8 @@ namespace Template
         Vector2 pos;
         Vector2 mousePos;
         private Texture2D Sprite;
+        public static int cPosX;
+        public static int cPosY;
 
         public BlackPixel(Vector2 pos, Vector2 mousePos, Texture2D sprite) : base(pos, mousePos, sprite)
         {
@@ -27,7 +29,9 @@ namespace Template
         public override void Update()
         {
             mouse = Mouse.GetState();
-
+            cPosX = mouse.X;
+            cPosY = mouse.Y;
+            
             
 
             base.Update();
