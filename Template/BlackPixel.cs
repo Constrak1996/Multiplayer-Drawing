@@ -27,19 +27,14 @@ namespace Template
         {
             mousePos = new Vector2(mouse.X, mouse.Y);
 
-            if (mouse.LeftButton == ButtonState.Pressed)
-            {
-                GameObject blackPixel = new BlackPixel(pos, mousePos, sprite);
-
-                GameWorld.gameObjectsAdd.Add(blackPixel);
-            }
+            
 
             base.Update();
         }
 
         public override void Draw(GameTime gametime, SpriteBatch spriteBatch)
         {
-            spriteBatch.Draw(Sprite, pos, null, Color.White, 0f, spriteCenter, 1f, SpriteEffects.None, 1f);
+            spriteBatch.Draw(Sprite, pos, null, Color.White, 0f, spriteCenter, 10f, SpriteEffects.None, 1f);
             base.Draw(gametime, spriteBatch);
         }
 

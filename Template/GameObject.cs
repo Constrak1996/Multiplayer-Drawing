@@ -16,7 +16,7 @@ namespace Template
 
         public GameObject(Vector2 pos, Vector2 mousePos, Texture2D sprite)
         {
-            
+            Sprite = sprite;
         }
 
         public virtual void Update()

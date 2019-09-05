@@ -21,3 +21,27 @@ D:\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Template - MonoGame
 D:\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Template - MonoGame\Template\Template\obj\x86\Debug\Template.csproj.CopyComplete
 D:\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Template - MonoGame\Template\Template\obj\x86\Debug\Template.exe
 D:\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Template - MonoGame\Template\Template\obj\x86\Debug\Template.pdb
+D:\Study\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Netværk\Multiplayer-Drawing\Template\bin\Windows\x86\Debug\Content\BlackPixel.xnb
+D:\Study\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Netværk\Multiplayer-Drawing\Template\bin\Windows\x86\Debug\Template.exe
+D:\Study\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Netværk\Multiplayer-Drawing\Template\bin\Windows\x86\Debug\Template.pdb
+D:\Study\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Netværk\Multiplayer-Drawing\Template\bin\Windows\x86\Debug\MonoGame.Framework.dll
+D:\Study\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Netværk\Multiplayer-Drawing\Template\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+D:\Study\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Netværk\Multiplayer-Drawing\Template\bin\Windows\x86\Debug\SharpDX.dll
+D:\Study\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Netværk\Multiplayer-Drawing\Template\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+D:\Study\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Netværk\Multiplayer-Drawing\Template\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+D:\Study\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Netværk\Multiplayer-Drawing\Template\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+D:\Study\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Netværk\Multiplayer-Drawing\Template\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+D:\Study\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Netværk\Multiplayer-Drawing\Template\bin\Windows\x86\Debug\SharpDX.XInput.dll
+D:\Study\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Netværk\Multiplayer-Drawing\Template\bin\Windows\x86\Debug\MonoGame.Framework.xml
+D:\Study\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Netværk\Multiplayer-Drawing\Template\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+D:\Study\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Netværk\Multiplayer-Drawing\Template\bin\Windows\x86\Debug\SharpDX.xml
+D:\Study\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Netværk\Multiplayer-Drawing\Template\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+D:\Study\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Netværk\Multiplayer-Drawing\Template\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+D:\Study\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Netværk\Multiplayer-Drawing\Template\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+D:\Study\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Netværk\Multiplayer-Drawing\Template\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+D:\Study\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Netværk\Multiplayer-Drawing\Template\bin\Windows\x86\Debug\SharpDX.XInput.xml
+D:\Study\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Netværk\Multiplayer-Drawing\Template\obj\x86\Debug\Template.csprojAssemblyReference.cache
+D:\Study\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Netværk\Multiplayer-Drawing\Template\obj\x86\Debug\Template.csproj.CoreCompileInputs.cache
+D:\Study\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Netværk\Multiplayer-Drawing\Template\obj\x86\Debug\Template.csproj.CopyComplete
+D:\Study\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Netværk\Multiplayer-Drawing\Template\obj\x86\Debug\Template.exe
+D:\Study\OneDrive\OneDrive - IT Center Nord\Visual Studio Projects\Netværk\Multiplayer-Drawing\Template\obj\x86\Debug\Template.pdb
