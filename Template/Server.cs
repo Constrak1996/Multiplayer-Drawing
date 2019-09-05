@@ -12,7 +12,6 @@ namespace Template
 {
     class Server
     {
-        private static int Port = 13000;
         private static Object l = new Object();
         private static TcpListener _server;
         private static Boolean _isRunning;

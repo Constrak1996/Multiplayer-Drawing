@@ -52,6 +52,8 @@ namespace Template
         /// </summary>
         protected override void LoadContent()
         {
+            Server.TcpServer(13000);
+
             blackPixel = Content.Load<Texture2D>("BlackPixel");
 
             spriteBatch = new SpriteBatch(GraphicsDevice);
