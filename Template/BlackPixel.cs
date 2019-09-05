@@ -21,11 +21,12 @@ namespace Template
         {
             mousePos = new Vector2(mouse.X, mouse.Y);
             this.Sprite = sprite;
+            this.pos = pos;
         }
 
         public override void Update()
         {
-            mousePos = new Vector2(mouse.X, mouse.Y);
+            pos = new Vector2(mouse.X, mouse.Y);
 
             
 

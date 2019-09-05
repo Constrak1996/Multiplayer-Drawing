@@ -19,7 +19,7 @@ namespace Template
 
         public static Texture2D blackPixel;
 
-        MouseState mouse;
+        public static MouseState mouse;
 
         //The lists used for loading and removing items
         public static List<GameObject> gameObjects = new List<GameObject>();
@@ -71,14 +71,14 @@ namespace Template
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Update(GameTime gameTime)
         {
-            
+            mouse = Mouse.GetState();
 
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
             if (Keyboard.GetState().IsKeyDown(Keys.E))
             {
-                GameObject blackPixel = new BlackPixel(new Vector2(mouse.X, mouse.Y), new Vector2(mouse.X, mouse.Y), GameWorld.blackPixel);
+                GameObject blackPixel = new BlackPixel(new Vector2(mouse.Position.X, mouse.Position.Y), new Vector2(mouse.Position.X, mouse.Position.Y), GameWorld.blackPixel);
 
                 GameWorld.gameObjectsAdd.Add(blackPixel);
             }
